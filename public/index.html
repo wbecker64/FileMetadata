@@ -1,0 +1,65 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>
+            File Metadata Microservice
+        </title>
+        <meta content="File Metadata Microservice" name="description"/>
+        <meta content="wbecker64" name="author"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet prefetch"/>
+    </head>
+</html>
+<body>
+    <div class="container-fluid">
+        <img alt="My Face" src="https://avatars3.githubusercontent.com/u/1614479?v=4"/>
+        <p>
+            <a href="mailto:wbecker64@gmail.com">
+                <i class="fa fa-envelope fa-fw">
+                </i>
+            </a>
+            <a href="https://github.com/wbecker64" target="_blank">
+                <i class="fa fa-github fa-fw">
+                </i>
+            </a>
+            <a href="https://www.linkedin.com/in/william-becker-151b102/" target="_blank">
+                <i class="fa fa-linkedin">
+                </i>
+            </a>
+            <a href="http://codepen.io/wbecker64" target="_blank">
+                <i class="fa fa-codepen">
+                </i>
+            </a>
+            <a href="http://www.freecodecamp.com/wbecker64" target="_blank">
+                <i class="fa fa-fire fa-fw">
+                </i>
+            </a>
+        </p>
+        <p>
+            Created by William Becker (wbecker64).
+        </p>
+        <h1 class="header">
+            FreeCodeCamp : File Metadata Microservice
+        </h1>
+        <blockquote>
+            <p>
+                User stories:
+            </p>
+            <ul>
+                <li>
+                    I can submit a FormData object that includes a file upload.
+                </li>
+                <li>
+                    When I submit something, I will receive the file size in bytes within the JSON response.
+                </li>
+            </ul>
+        </blockquote>
+        <form action="fileUpload" enctype="multipart/form-data" method="post">
+            <input name="MAX_FILE_SIZE" type="hidden" value="1048576"/>
+            Select a file :
+            <input name="upFile" type="file"/>
+            <input name="submit" type="submit" value="Envoyer"/>
+        </form>
+    </div>
+</body>
