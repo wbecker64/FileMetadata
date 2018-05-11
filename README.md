@@ -8,4 +8,4 @@ Run `npm start` to start the server locally.
 
 ## Live
 
-Live app running here : https://filemetadata.herokuapp.com
+Live app running here : https://wbecker-file-size.herokuapp.com/
